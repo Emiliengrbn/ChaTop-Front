@@ -1,55 +1,43 @@
-# Estate
+# Project ChaTôp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+This codebase contains the code needed to run the backend for [ChaTôp app](https://github.com/Emiliengrbn/ChaTop-Back).
 
-## Start the project
+## Getting Started
 
-Git clone:
+### Prerequisites
 
-> git clone https://github.com/OpenClassrooms-Student-Center/P3-Full-Stack-portail-locataire
+ChaTôp uses the following tech stack:
 
-Go inside folder:
+- [Node.js v12](https://nodejs.org/en/)
 
-> cd P3-Full-Stack-portail-locataire
+Please make sure you have the right versions and download both packages. You can verify this by using the following commands in your terminal:
 
-Install dependencies:
+```bash
+# Check Node.js version
+node --version
+```
 
-> npm install
+### Instructions
 
-Launch Front-end:
+1. Fork this repo
+1. Clone the repo onto your computer
+1. Open a terminal window in the cloned project
+1. Run ```bash
+   npm start
 
-> npm run start;
+```
 
+Your server should now be running at http://locahost:4200
 
-## Ressources
+## Users to login
 
-### Mockoon env
+### User 1
 
-Download Mockoon here: https://mockoon.com/download/
+- Email: `test@test.fr`
+- Password: `mypassword123.`
 
-After installing you could load the environement
+### User 2
 
-> ressources/mockoon/rental-oc.json
-
-directly inside Mockoon 
-
-> File > Open environmement
-
-For launching the Mockoon server click on play bouton
-
-Mockoon documentation: https://mockoon.com/docs/latest/about/
-
-### Postman collection
-
-For Postman import the collection
-
-> ressources/postman/rental.postman_collection.json 
-
-by following the documentation: 
-
-https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman
-
-
-### MySQL
-
-SQL script for creating the schema is available `ressources/sql/script.sql`
+- Email: `test2@test.fr`,
+- Password: `mypassword123.`
+```
