@@ -22,9 +22,9 @@ node --version
 1. Fork this repo
 1. Clone the repo onto your computer
 1. Open a terminal window in the cloned project
-1. Run ```bash
+1. Run
+```bash
    npm start
-
 ```
 
 Your server should now be running at http://locahost:4200
