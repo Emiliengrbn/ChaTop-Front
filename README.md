@@ -39,4 +39,3 @@ Votre serveur devrait maintenant être en cours d'exécution à l'adresse http:/
 
 - Email: `test2@test.fr`,
 - Mot de passe: `mypassword123.`
-```
